@@ -16,10 +16,11 @@ Second rename .env.example file:
 cp .env.example .env
 ```
 
-Third create app key by running this command on terminal:
+Third create app key and jwt secret by running this command on terminal:
 
 ```
 php artisan key:generate
+php artisan jwt:secret
 ```
 
 Fourth and last, create your database and change configuration in .env file
