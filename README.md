@@ -26,9 +26,9 @@ php artisan jwt:secret
 Fourth and last, create your database and change configuration in .env file
 
 ```
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
+DB_DATABASE=YOUR_DB_NAME
+DB_USERNAME=YOUR_DB_USERNAME
+DB_PASSWORD=YOUR_DB_PASSWORD
 ```
 
 Enjoy it on [http://localhost:8000](http://localhost:8000):
@@ -36,10 +36,6 @@ Enjoy it on [http://localhost:8000](http://localhost:8000):
 ```
 php -S localhost:8000 -t public
 ```
-
-## API Documentation
-
-Documentation for API can be found on this url: [Postman API](https://google.com).
 
 ## License
 
